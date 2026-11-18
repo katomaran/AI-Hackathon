@@ -1,0 +1,15 @@
+{
+  "num_threads": 0,
+  "detection_frame_skip": 2,
+  "det_input_size": 640,
+  "det_conf": 0.5,
+  "min_face_px": 32,
+  "track_max_age_s": 1.0,
+  "exit_grace_s": 2.0,
+  "registration_min_quality": 0.5,
+  "match_threshold": 0.4,
+  "models": {
+    "detector": "models/yolov8n-face.onnx",
+    "recognizer": "models/w600k_mbf.onnx"
+  }
+}
